@@ -3,6 +3,22 @@
 Box Android SDK
 ===============
 
+Maven/Gradle
+------------
+Box does not package the Android SDK for use with Maven or Gradle. This repository serves to do so.
+
+For Gradle, add the following to your `build.gradle`
+```groovy
+repositories {
+    maven { url "https://raw.github.com/MariusVolkhart/box-android-sdk-v2/maven-official" }
+}
+
+dependencies {
+    compile 'io.github.mariusvolkhart.box-android-sdk-v2:boxandroidlibv2:3.0.7'
+}
+```
+This project makes no changes to code or build scripts except to facilitate packaging.
+
 Building
 --------
 The Android SDK depends on the [Box Java SDK][java-sdk], so you must first
