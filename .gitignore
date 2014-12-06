@@ -9,6 +9,5 @@ BoxJavaLibraryV2.jar
 build/
 dist/
 gen/
-gradle.properties
 local.properties
 *.iml
