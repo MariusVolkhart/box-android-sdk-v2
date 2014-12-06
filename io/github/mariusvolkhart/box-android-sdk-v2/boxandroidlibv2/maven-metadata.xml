@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>io.github.mariusvolkhart.box-android-sdk-v2</groupId>
+  <artifactId>boxandroidlibv2</artifactId>
+  <version>3.0.7</version>
+  <versioning>
+    <versions>
+      <version>3.0.7</version>
+    </versions>
+    <lastUpdated>20141206032937</lastUpdated>
+  </versioning>
+</metadata>
